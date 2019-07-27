@@ -1,0 +1,8 @@
+#Digital Differentiator Algorithm(DDA) for Line
+Number of pixels to connect two points should be the greater number between dy or dx. 
+if (abs(dy) > abs(dx))
+	p=abs(dy)
+else
+	p=abs(dx)
+In case of float increments, round of to the nearest 10. Ceiling or Floor according to the 5 rule. 
+
