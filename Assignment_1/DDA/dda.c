@@ -30,7 +30,8 @@ int main(){
 		}else{
 			finalY = ((y1*10)/10)+0.5;
 		}
-		putpixel(finalX, finalY, RED);
+		//putpixel(finalX, finalY, RED);
+		printf("(%d, %d): \t %d\n",finalX, finalY, p);
 		x1+=xn;
 		y1+=yn;
 	}

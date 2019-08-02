@@ -21,8 +21,8 @@ int main(){
         pK = 2*dy - dx;         // Error: pK = 2*dx - dy;
     
         for(xNext = x1; xNext <= x2; xNext++){
-            putpixel(xNext, yNext, RED);
-            printf("%d\t%d\t%d\n", pK, xNext, yNext);
+            //putpixel(xNext, yNext, RED);
+            printf("%d\t(%d,%d)\n", pK, xNext, yNext);
             if(pK > 0){
                 pK = pK + 2*dy - 2*dx;
                 yNext++;

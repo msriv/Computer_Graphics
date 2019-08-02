@@ -249,7 +249,7 @@ void options(){
     scanf("%d", &choice);
     
     
-    int gd = X11, gm=VGAMED;
+    int gd = VGA, gm=VGAHI;
     switch(choice){
         case 1: {
             int c;
@@ -314,7 +314,58 @@ void options(){
             options();
         }break;
         case 3: {
-            // Volcano Head Emoji
+
+
+            initgraph(&gd, &gm, "");
+            //putpixel((getmaxx()/2)+60, (getmaxy()/2)+70, COLOR(54,34,23));
+            setcolor(14);
+            ellipse(getmaxx()/2, getmaxy()/2, 150, 390, 100, 100);
+            setcolor(14);
+            ellipse(getmaxx()/2, getmaxy()/2-50, 0, 360, 87, 8);
+            setcolor(14);
+            ellipse(getmaxx()/2, getmaxy()/2-46, 0, 180, 70, 6);
+            floodfill(getmaxx()/2, getmaxy()/2, 14);
+            floodfill(getmaxx()/2, getmaxy()/2-55, 14);
+            setcolor(RED);
+            /* line(getmaxx()/2-70, getmaxy()/2-46, getmaxx()/2-70, getmaxy()/2-130);
+            line(getmaxx()/2+70, getmaxy()/2-46, getmaxx()/2+70, getmaxy()/2-130); */
+            ellipse(getmaxx()/2-55, getmaxy()/2-85, 300, 420,20, 48);
+            ellipse(getmaxx()/2+55, getmaxy()/2-89, 118, 245,20, 50);
+            ellipse(getmaxx()/2-45, getmaxy()/2-85, 290, 425,20, 44);
+            ellipse(getmaxx()/2+45, getmaxy()/2-90, 96, 260,20, 48);
+            setcolor(7);
+            arc(getmaxx()/2-70, getmaxy()/2-150, 155, 300, 20);
+            arc(getmaxx()/2-75, getmaxy()/2-175, 120, 250, 20);
+            arc(getmaxx()/2-60, getmaxy()/2-190, 20, 180, 25);
+            arc(getmaxx()/2-20, getmaxy()/2-195, 10, 160, 20);
+            arc(getmaxx()/2+30, getmaxy()/2-185, 20, 150, 40);
+            arc(getmaxx()/2+60, getmaxy()/2-180, 320, 460, 40);
+            arc(getmaxx()/2-40, getmaxy()/2-150, 180, 330, 25);
+            arc(getmaxx()/2+10, getmaxy()/2-150, 200, 350, 30);
+            arc(getmaxx()/2+64, getmaxy()/2-158, 210, 360, 30);
+            ff4(getmaxx()/2, getmaxy()/2-180, 0, 15);
+            ff4(getmaxx()/2-28, getmaxy()/2-85, 0, 4);
+            ff4(getmaxx()/2-35, getmaxy()/2-50,0, 4);
+            ff4(getmaxx()/2-33, getmaxy()/2-55,14, 4);
+            ff4(getmaxx()/2+28, getmaxy()/2-85, 0,4);
+            ff4(getmaxx()/2+37, getmaxy()/2-50, 0,4);
+            ff4(getmaxx()/2+35, getmaxy()/2-55, 14,4);
+            ff4(getmaxx()/2+20, getmaxy()/2-90,0,14);
+            ff4(getmaxx()/2+20, getmaxy()/2-50,0,14);
+            setcolor(BLACK);
+            circle(getmaxx()/2+45, getmaxy()/2-10, 15);
+            ff4(getmaxx()/2+45, getmaxy()/2-10, 14, 0);
+            circle(getmaxx()/2-45, getmaxy()/2-10, 15);
+            ff4(getmaxx()/2-45, getmaxy()/2-10, 14, 0);
+            circle(getmaxx()/2, getmaxy()/2+50, 25);
+            ff4(getmaxx()/2, getmaxy()/2+50, 14, 0);
+            setcolor(WHITE);
+            arc(getmaxx()/2, getmaxy()/2+50, 0, 180, 20);
+            line(getmaxx()/2-20, getmaxy()/2+50, getmaxx()/2+20, getmaxy()/2+50);
+            ff4(getmaxx()/2-10, getmaxy()/2+40,0, 15);
+            getch();
+            closegraph();
+            options();
         }break;
         case 4: {
             return;
