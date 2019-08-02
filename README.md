@@ -13,13 +13,13 @@ Learned about the following Line Drawing algorithms, their implementations and t
  ## Assignment 2
 Learned about the following Circle Drawing algorithms, and finally implemented them to create the emoticon as a deliverable of the assignment.
 
-![](/home/msrivastava/Documents/SEMESTER5/Computer_Graphics/Images/Screenshot_20190731_220954.png)
+![](Images/Screenshot_20190731_220954.png)
 
 Apart from the above selected emoticon, I created the following emoticons 
 
-![](/home/msrivastava/Documents/SEMESTER5/Computer_Graphics/Images/Screenshot_20190731_221024.png)
+![](Images/Screenshot_20190731_221024.png)
 
-![Screenshot_20190731_221058](/home/msrivastava/Documents/SEMESTER5/Computer_Graphics/Images/Screenshot_20190731_221058.png)
+![Screenshot_20190731_221058](Images/Screenshot_20190731_221058.png)
 
 ## Assignment 3
 
@@ -27,13 +27,13 @@ After creating the emoticon, we performed the following transformations -
 
 - Translation
 
-  ![](/home/msrivastava/Documents/SEMESTER5/Computer_Graphics/Images/Screenshot_20190801_105402.png)
+  ![](Images/Screenshot_20190801_105402.png)
 
 - Rotation
 
-  ![](/home/msrivastava/Documents/SEMESTER5/Computer_Graphics/Images/Screenshot_20190801_105453.png)
+  ![](Images/Screenshot_20190801_105453.png)
 
 - Scaling
 
-  ![](/home/msrivastava/Documents/SEMESTER5/Computer_Graphics/Images/Screenshot_20190801_105609.png)
+  ![](Images/Screenshot_20190801_105609.png)
 
